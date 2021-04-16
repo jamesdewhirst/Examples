@@ -2,8 +2,10 @@
 
 ### Step 1: Google Dorking
 Using Google, can you identify who the Chief Executive Officer of Altoro Mutal is:
+```diff
+- text in blue
 - Karl Fitzgerald
-
+```
 
 How can this information be helpful to an attacker:
 - Social engineering and Whale Phishing
@@ -43,6 +45,10 @@ Your client has asked that you help identify any vulnerabilities with their file
 	3.	What mitigation strategies can you recommendations for the client to protect their server: 
 Bonus:
 
-<div class="text-blue mb-2">
-  .text-blue on white
-</div>
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
