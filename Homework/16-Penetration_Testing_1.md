@@ -3,6 +3,7 @@
 ### Step 1: Google Dorking
 Using Google, can you identify who the Chief Executive Officer of Altoro Mutal is:
 - Karl Fitzgerald
+
 How can this information be helpful to an attacker:
 - Social engineering and Whale Phishing
 
