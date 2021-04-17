@@ -36,5 +36,5 @@ This is where you show the steps you took. Show the client how you exploited the
 
 There should be a separate finding for each vulnerability found.
 
-### Recommendations
+### 3. Recommendations
 What recommendations would you give to GoodCorp?
