@@ -17,7 +17,7 @@ What open ports and running services did Shodan find:
 - Apache Tomcat/Coyote JSP engine
 #### Step 4: Recon-ng
 - Install the Recon module `xssed`.
-- (https://github.com/jamesdewhirst/Examples/blob/Homework/Screen%20Shot%202021-04-15%20at%208.10.49%20AM.png) 
+- https://github.com/jamesdewhirst/Examples/blob/main/Homework/Screen%20Shot%202021-04-15%20at%208.10.49%20AM.png
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 - Is Altoro Mutual vulnerable to XSS: Yes, it has the unfixed status.
@@ -30,5 +30,3 @@ Your client has asked that you help identify any vulnerabilities with their file
   1. What is the vulnerability:
   2. Why is it dangerous:
   3. What mitigation strategies can you recommendations for the client to protect their server:
-
-![Network Diagram REPLACE ME](https://github.com/jamesdewhirst/Automated-ELK-Stack-Deployment/blob/main/Diagrams/submission_file.png)
