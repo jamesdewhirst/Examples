@@ -10,27 +10,27 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 
 ### 2. Findings
 - Machine IP:
-  - test
+  - ANSWER
 - Machine’s IP address
-  - 
+  - ANSWER
 - Hostname:
-  - 
+  - ANSWER
 - Actual name of the machine
-  - 
+  - ANSWER
 - Vulnerability Exploited:
-  - 
+  - ANSWER
 - The name of the script or Metasploit module used
-  - 
+  - ANSWER
 - Vulnerability Explanation:
-  - 
+  - ANSWER
 - Explain the vulnerability as best you can by explaining the attack type (i.e. is it a heap overflow attack, buffer overflow, file inclusion, etc.) and briefly summarize what that attack is. You may need to do extra research online. 
-  - 
+  - ANSWER
 - Severity:
-  - 
+  - ANSWER
 - In your expert opinion, how severe is this vulnerability?
-  - 
+  - ANSWER
 - Proof of Concept:
-  - 
+  - ANSWER
 
 This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots.
 
@@ -38,6 +38,3 @@ There should be a separate finding for each vulnerability found.
 
 ### Recommendations
 What recommendations would you give to GoodCorp?
-
-
-
