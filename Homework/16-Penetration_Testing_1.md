@@ -42,9 +42,9 @@ Your client has asked that you help identify any vulnerabilities with their file
 	- `nmap -oN zenmapscan2.txt --script smb -enum -shares 192.169.0.10`
 - Once you have identified this vulnerability, answer the following questions for your client:
 1. What is the vulnerability:
-	- \\192.168.0.10IPC$:
+	- `\\192.168.0.10IPC$:`
 		- Anonymous access: READ/WRITE
-	- \\192.168.0.10/tmp:
+	- `\\192.168.0.10/tmp:`
 		- Anonymous access: READ/WRITE
 2. Why is it dangerous:
 	- This allows anyone to have READ/WRITE access
