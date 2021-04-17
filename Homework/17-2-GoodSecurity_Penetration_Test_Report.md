@@ -10,7 +10,7 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 
 ### 2. Findings
 - Machine IP:
-  - 
+  - test
 - Machine’s IP address
   - 
 - Hostname:
