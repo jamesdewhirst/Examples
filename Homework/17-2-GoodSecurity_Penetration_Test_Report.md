@@ -1,5 +1,5 @@
 # GoodSecurity Penetration Test Report
-###### JamesDewhirst@GoodSecurity.com
+#### JamesDewhirst@GoodSecurity.com
 Date of Report: 4/17/2021
 
 ### 1. High-Level Summary
