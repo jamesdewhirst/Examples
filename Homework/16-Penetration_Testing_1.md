@@ -17,16 +17,26 @@ What open ports and running services did Shodan find:
 - Apache Tomcat/Coyote JSP engine
 #### Step 4: Recon-ng
 - Install the Recon module `xssed`.
+	- `marketplace install xssed`
 	- https://github.com/jamesdewhirst/Examples/blob/main/Homework/Screen%20Shot%202021-04-15%20at%208.10.49%20AM.png
 - Set the source to `demo.testfire.net`. 
+	- `modules load recon/domains-vulnerabilities/xssed`
 - Run the module. 
-- Is Altoro Mutual vulnerable to XSS: Yes, it has the unfixed status.
+	- `run` OR `execute`
+- Is Altoro Mutual vulnerable to XSS:
+	- Yes, it has the unfixed status.
 ### Step 5: Zenmap
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
-- Command for Zenmap to run a service scan against the Metasploitable machine: 
- - Bonus command to output results into a new text file named `zenmapscan.txt`:
+- Command for Zenmap to run a service scan against the Metasploitable machine:
+	- `nmap -sV -T4 192.168.0.10` 
+- Bonus command to output results into a new text file named `zenmapscan.txt`:
+	- `nmap -sV -T4 192.169.0.10 -oN zenmapscan.txt`
 - Zenmap vulnerability script command: 
+	- `nmap -oN zenmapscan2.txt --script smb -enum -shares 192.169.0.10`
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:
+	- 
   2. Why is it dangerous:
+	- 
   3. What mitigation strategies can you recommendations for the client to protect their server:
+	- ``
