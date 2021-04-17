@@ -7,14 +7,20 @@
 
 ### Step 2: DNS and Domain Discovery
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
-  1. Where is the company located: Sunnyvale, California
-  2. What is the NetRange IP address: 65.61.137.64 - 65.61.137.127
-  3. What is the company they use to store their infrastructure: Rackspace Backbone Engineering
-  4. What is the IP address of the DNS server: 65.61.137.117
+  1. Where is the company located:
+	- Sunnyvale, California
+  2. What is the NetRange IP address:
+	- 65.61.137.64 - 65.61.137.127
+  3. What is the company they use to store their infrastructure:
+	- Rackspace Backbone Engineering
+  4. What is the IP address of the DNS server:
+	- 65.61.137.117
+
 ### Step 3: Shodan
 What open ports and running services did Shodan find:
 - 80, 443, 8080
 - Apache Tomcat/Coyote JSP engine
+
 ### Step 4: Recon-ng
 - Install the Recon module `xssed`.
 	- `marketplace install xssed`
@@ -25,6 +31,7 @@ What open ports and running services did Shodan find:
 	- `run` OR `execute`
 - Is Altoro Mutual vulnerable to XSS:
 	- Yes, it has the unfixed status.
+
 ### Step 5: Zenmap
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 - Command for Zenmap to run a service scan against the Metasploitable machine:
