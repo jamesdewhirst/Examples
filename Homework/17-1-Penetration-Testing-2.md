@@ -114,7 +114,7 @@ You've been provided full access to the network and are getting ping responses f
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
 
-      > Answer: 
+      > Answer: TEST
  
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
