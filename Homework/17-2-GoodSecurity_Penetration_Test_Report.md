@@ -10,16 +10,27 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 
 ### 2. Findings
 - Machine IP:
+  - 
 - Machine’s IP address
+  - 
 - Hostname:
+  - 
 - Actual name of the machine
+  - 
 - Vulnerability Exploited:
+  - 
 - The name of the script or Metasploit module used
+  - 
 - Vulnerability Explanation:
+  - 
 - Explain the vulnerability as best you can by explaining the attack type (i.e. is it a heap overflow attack, buffer overflow, file inclusion, etc.) and briefly summarize what that attack is. You may need to do extra research online. 
+  - 
 - Severity:
+  - 
 - In your expert opinion, how severe is this vulnerability?
+  - 
 - Proof of Concept:
+  - 
 
 This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots.
 
