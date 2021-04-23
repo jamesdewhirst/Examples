@@ -48,7 +48,7 @@ For this week's homework, please use the following VM setup:
 
 Once you complete this assignment, submit your findings in the following document: 
 
-- [Report.docx](Resources/Report.docx)
+- https://github.com/jamesdewhirst/Examples/blob/main/Homework/17-2-GoodSecurity_Penetration_Test_Report.md
  
 ### Instructions
 
