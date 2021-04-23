@@ -131,19 +131,13 @@ You've been provided full access to the network and are getting ping responses f
  
 A. Run a Meterpreter post script that enumerates all logged on users.
 
-  > Answer:
+  > Answer: `run post/windows/gather/enum_logged_on_users`
  
      
 B. Open a Meterpreter shell and gather system information for the target.
  
-  > Answer: 
+  > Answer: `shell`
  
 C. Run the command that displays the target's computer system information:
 
-   > Answer: 
-
-
-
----
-
-&copy; 2020 Trilogy Education Services, a 2U Inc Brand.   All Rights Reserved.
+   > Answer: `systeminfo`
