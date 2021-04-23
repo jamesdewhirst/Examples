@@ -38,7 +38,7 @@ There should be a separate finding for each vulnerability found.
 
 ### 3. Recommendations
 What recommendations would you give to GoodCorp?
-  > Update all software to the current versions to ensure all security patches are up to date.
-  > Use HTTPS
-  > Impliment SSL certs on employee machines
-  > Block all network traffic and only allow employees access via their specific DNS
+  - Update all software to the current versions to ensure all security patches are up to date.
+  - Use HTTPS
+  - Impliment SSL certs on employee machines
+  - Block all network traffic and only allow employees access via their specific DNS
