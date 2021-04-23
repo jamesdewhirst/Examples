@@ -114,6 +114,7 @@ You've been provided full access to the network and are getting ping responses f
     - **Bonus**: Run the command that exfiltrates the `recipe*.txt` file:
 
       > Answer: `download 'c:\Users\IEuser\Documents\Drinks.recipe.txt'`
+      > 
       > Answer: `Drinks.recipe.txt = Put the lime in the coconut and drink it all up!`
  
 
