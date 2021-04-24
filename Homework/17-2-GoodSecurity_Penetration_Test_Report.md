@@ -16,9 +16,9 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 - Vulnerability Exploited:
   - `icecast`
 - Vulnerability Explanation:
-  - Explain the vulnerability as best you can by explaining the attack type (i.e. is it a heap overflow attack, buffer overflow, file inclusion, etc.) and briefly summarize what that attack is. You may need to do extra research online. 
+  - It allows access to the computer network to inject malicious code allowing a system takeover.  
 - Severity:
-  - look up exploit in miter
+  - 
 - Proof of Concept:
   - ANSWER - This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots.  
   - There should be a separate finding for each vulnerability found.
