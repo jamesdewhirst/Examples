@@ -53,7 +53,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
     - [Speed Test File](https://du.bootcampcontent.com/denver-coding-bootcamp/du-den-cyber-pt-12-2020-u-c/blob/master/CourseMaterials/2-Homework/18-SIEMs/Resources/server_speedtest.csv)
 
 2. Using the `eval` command, create a field called `ratio` that shows the ratio between the upload and download speeds.
-   - Hint: The format for creating a ratio is: `| eval new_field_name = 'fieldA'  / 'fieldB'`
+   - Hint: The format for creating a ratio is: `table`
       
 3. Create a report using the Splunk's `table` command to display the following fields in a statistics report:
     - `_time`
@@ -85,6 +85,7 @@ Submit a screen shot of your report and the answer to the questions above.
 2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
    - The database server IP is `10.11.36.23`.
    - The field that identifies the level of vulnerabilities is `severity`.
+   - source="nessus_logs.csv" dest_ip="10.11.36.23" severity=critical | top severity
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
@@ -101,7 +102,7 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 1. Upload the administrator login logs.
    - [Admin Logins](https://du.bootcampcontent.com/denver-coding-bootcamp/du-den-cyber-pt-12-2020-u-c/blob/master/CourseMaterials/2-Homework/18-SIEMs/Resources/Administrator_logs.zip)
 
-2. When did the brute force attack occur?
+2. When did the brute force attack occur? 9am to 1pm on February 21, 2020
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
