@@ -4,7 +4,7 @@ In this activity, you will play the role of an independent penetration tester hi
 
 - The CEO claims to have passwords that are long and complex and therefore unhackable.
 
-- You are tasked with gaining access to the CEO's computer and using a Meterpreter session to search for two files that contain the strings `recipe` and `seceretfile`.
+- You are tasked with gaining access to the CEO's computer and using a Meterpreter session to search for two files that contain the strings `recipe` and `secretfile`.
 
 - The deliverable for this engagement will be in the form of a report labeled `Report.docx`.
 
