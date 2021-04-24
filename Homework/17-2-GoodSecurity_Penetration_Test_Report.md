@@ -11,34 +11,21 @@ The internal penetration test found several alarming vulnerabilities on Hans’ 
 ### 2. Findings
 - Machine IP:
   - 192.168.0.20
-- Machine’s IP address
-  - 192.168.0.20
 - Hostname:
   - MSEDGEWIN10
-- Actual name of the machine
-  - IEUser
 - Vulnerability Exploited:
-  - Remote access ??????????????????????????
-- The name of the script or Metasploit module used
-  - ANSWER
+  - `icecast`
 - Vulnerability Explanation:
-  - ANSWER
-- Explain the vulnerability as best you can by explaining the attack type (i.e. is it a heap overflow attack, buffer overflow, file inclusion, etc.) and briefly summarize what that attack is. You may need to do extra research online. 
-  - ANSWER
+  - Explain the vulnerability as best you can by explaining the attack type (i.e. is it a heap overflow attack, buffer overflow, file inclusion, etc.) and briefly summarize what that attack is. You may need to do extra research online. 
 - Severity:
-  - Code Red
-- In your expert opinion, how severe is this vulnerability?
-  - this exploit allows a user to remote into the computer and take total control. This allows them to download and change files as they wish.
+  - look up exploit in miter
 - Proof of Concept:
-  - ANSWER
-
-This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots.
-
-There should be a separate finding for each vulnerability found.
+  - ANSWER - This is where you show the steps you took. Show the client how you exploited the software services. Please include screenshots.  
+  - There should be a separate finding for each vulnerability found.
 
 ### 3. Recommendations
 What recommendations would you give to GoodCorp?
   - Update all software to the current versions to ensure all security patches are up to date.
-  - Use HTTPS
+  - Impliment more robust firewall rules
   - Impliment SSL certs on employee machines
   - Block all network traffic and only allow employees access via their specific DNS
