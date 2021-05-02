@@ -1,11 +1,11 @@
 ## Dealer_Loss_Correlation
-#!/bin/bash
+`#!/bin/bash
 
-#### Set time/date of loss as an array
+Set time/date of loss as an array
 set -a time_array
 time_array=$(awk '{print $1,$2}' Roulette_Losses | sed 's/ /:/1')
 
-#### Combine any dealer schedule to temp file
+Combine any dealer schedule to temp file
 for file in *_Dealer_schedule
 do
   awk 'NR>2 { print FILENAME (NF?":":"") $0}' $file | sed \
@@ -21,21 +21,21 @@ do
 done | sort
 
 #### Cleanup 
-rm dealer_sched
+rm dealer_sched`
 
 ## Dealers_working_during_Losses
-0310:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-0310:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
-0310:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
-0310:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
-0312:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-0312:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
-0312:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
-0312:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
-0312:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
-0315:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-0315:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
-0315:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+- 0310:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0310:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+- 0310:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
+- 0310:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+- 0312:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0312:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
+- 0312:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+- 0312:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
+- 0312:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+- 0315:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0315:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
+- 0315:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
 
 ## Notes_Dealer_Analysis
 The roulette dealer working during every loss was Billy Jones.
