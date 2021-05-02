@@ -18,7 +18,7 @@
 #### Notes_Dealer_Analysis
 - Roulette Dealers Scheduled During Losses
 
-- 03/10
+###### 03/10
 - 12 AM Marlene Mcpherson
 - 02 AM Abigale Rich
 - 05 AM Billy Jones
@@ -30,7 +30,7 @@
 - 08 PM Billy Jones
 - 11 PM Billy Jones
 
-- 03/12
+###### 03/12
 - 12 AM Marlene Mcpherson
 - 02 AM Abigale Rich
 - 05 AM Billy Jones
@@ -42,7 +42,7 @@
 - 08 PM Billy Jones
 - 11 PM Billy Jones
 
-- 03/15
+###### 03/15
 - 12 AM Marlene Mcpherson
 - 02 AM Abigale Rich
 - 05 AM Billy Jones
