@@ -16,46 +16,45 @@
 - Times Played: 13
 
 #### Notes_Dealer_Analysis
-Roulette Dealers Scheduled During Losses
-03/10
-12 AM Marlene Mcpherson
-02 AM Abigale Rich
-05 AM Billy Jones
-08 AM Billy Jones
-11 AM Summer-Louise Hammond
-12 PM John-James Hayward
-02 PM Billy Jones
-05 PM Rahima Figueroa
-08 PM Billy Jones
-11 PM Billy Jones
------------------------
-## 03/12
------------------------
-12 AM Marlene Mcpherson
-02 AM Abigale Rich
-05 AM Billy Jones
-08 AM Billy Jones
-11 AM Summer-Louise Hammond
-12 PM John-James Hayward
-02 PM Billy Jones
-05 PM Rahima Figueroa
-08 PM Billy Jones
-11 PM Billy Jones
------------------------
-## 03/15
------------------------
-12 AM Marlene Mcpherson
-02 AM Abigale Rich
-05 AM Billy Jones
-08 AM Billy Jones
-11 AM Summer-Louise Hammond
-12 PM John-James Hayward
-02 PM Billy Jones
-05 PM Rahima Figueroa
-08 PM Billy Jones
-11 PM Billy Jones
+- Roulette Dealers Scheduled During Losses
+- 
+- 03/10
+- 12 AM Marlene Mcpherson
+- 02 AM Abigale Rich
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 11 AM Summer-Louise Hammond
+- 12 PM John-James Hayward
+- 02 PM Billy Jones
+- 05 PM Rahima Figueroa
+- 08 PM Billy Jones
+- 11 PM Billy Jones
+- 
+- 03/12
+- 12 AM Marlene Mcpherson
+- 02 AM Abigale Rich
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 11 AM Summer-Louise Hammond
+- 12 PM John-James Hayward
+- 02 PM Billy Jones
+- 05 PM Rahima Figueroa
+- 08 PM Billy Jones
+- 11 PM Billy Jones
+- s
+- 03/15
+- 12 AM Marlene Mcpherson
+- 02 AM Abigale Rich
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 11 AM Summer-Louise Hammond
+- 12 PM John-James Hayward
+- 02 PM Billy Jones
+- 05 PM Rahima Figueroa
+- 08 PM Billy Jones
+- 11 PM Billy Jones
 
-Billy Jones: 14 shifts
+#### Billy Jones = 14 shifts, he is the one...
 
 
 ### Notes_Player_Dealer_Analysis
