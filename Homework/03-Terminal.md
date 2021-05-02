@@ -16,10 +16,8 @@
 - Times Played: 13
 
 #### Notes_Dealer_Analysis
-Roullette Dealers Scheduled during losses
------------------------
-## 03/10
------------------------
+Roulette Dealers Scheduled During Losses
+03/10
 12 AM Marlene Mcpherson
 02 AM Abigale Rich
 05 AM Billy Jones
