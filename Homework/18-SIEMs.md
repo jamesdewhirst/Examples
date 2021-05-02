@@ -62,13 +62,16 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
     - `DOWNLOAD_MEGABITS`
     - `UPLOAD_MEGABITS`
     - `ratio`
+    - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-2.png)
   
    Hint: Use the following format when for the `table` command: `| table fieldA  fieldB fieldC`
 
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
+    - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-3.png)
     - How long did it take your systems to recover?
+    - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-4.png)
 
 Submit a screen shot of your report and the answer to the questions above.
  
@@ -87,11 +90,12 @@ Submit a screen shot of your report and the answer to the questions above.
    - The database server IP is `10.11.36.23`.
    - The field that identifies the level of vulnerabilities is `severity`.
    - source="nessus_logs.csv" dest_ip="10.11.36.23" severity=critical | top severity
+   - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-5.png)
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
-
+   - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-6.png)
 
 ### Step 3: Drawing the (base)line
 
@@ -107,11 +111,13 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
-
+   - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-7.png)
       
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
+   - `45`
 
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
+   - ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/wk18/18-8.png)
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
  
