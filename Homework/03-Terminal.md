@@ -104,6 +104,24 @@ Mylie Schmidt was there for all 13 times when significant roullette losses happe
 - 0315 08:00:00AM	-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder	
 - 0315 02:00:00PM	-$182,419       Mylie Schmidt, Corey Huffman
 
+## Dealers Working During Losses
+- 0310:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0310:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+- 0310:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
+- 0310:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+- 0312:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0312:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
+- 0312:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+- 0312:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
+- 0312:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
+- 0315:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
+- 0315:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
+- 0315:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+
+## Shell Script(s)
+`grep -i '5\|8\|2\|11' *schedule | awk '{print substr($1,22,2)" "$2" "$5" "$6}'`
+
+## Player_Dealer_Coorelation
 
 
 
@@ -148,19 +166,7 @@ done | sort
 #### Cleanup 
 rm dealer_sched
 
-## Dealers_working_during_Losses
-- 0310:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-- 0310:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
-- 0310:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
-- 0310:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
-- 0312:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-- 0312:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
-- 0312:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
-- 0312:08:00:00PM	Saima Mcdermott	Billy Jones	Katey Bean
-- 0312:11:00:00PM	Cleveland Hanna	Billy Jones	Rahima Figueroa
-- 0315:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
-- 0315:05:00:00AM	Katey Bean	Billy Jones	Evalyn Howell
-- 0315:08:00:00AM	Rahima Figueroa	Billy Jones	Madina Britton
+
 
 ## Notes_Dealer_Analysis
 The roulette dealer working during every loss was Billy Jones.
