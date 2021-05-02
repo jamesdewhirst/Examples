@@ -54,52 +54,41 @@
 - 08 PM Billy Jones
 - 11 PM Billy Jones
 
-##### Billy Jones = 14 shifts, he is the one...
+#### Billy Jones = 14 shifts, he is the one...
 
 
 ### Notes_Player_Dealer_Analysis
-# Dealer Notes
+##### Dealer Note for Billy Jones
+###### 03/10
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 02 PM Billy Jones
+- 08 PM Billy Jones
+- 11 PM Billy Jones
+###### 03/12
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 02 PM Billy Jones
+- 08 PM Billy Jones
+- 11 PM Billy Jones
+###### 03/15
+- 05 AM Billy Jones
+- 08 AM Billy Jones
+- 02 PM Billy Jones
+- 08 PM Billy Jones
+- 11 PM Billy Jones
 
-## 03/10
-05 AM Billy Jones
-08 AM Billy Jones
-02 PM Billy Jones
-08 PM Billy Jones
-11 PM Billy Jones
-## 03/12
-05 AM Billy Jones
-08 AM Billy Jones
-02 PM Billy Jones
-08 PM Billy Jones
-11 PM Billy Jones
-## 03/15
-05 AM Billy Jones
-08 AM Billy Jones
-02 PM Billy Jones
-08 PM Billy Jones
-11 PM Billy Jones
+##### Billy Jones: 14 shifts
 
-Billy Jones: 14 shifts
-
-=================================
-
-# Player Notes
+#### Player Notes
 
 Name: Mylie Schmidt
 Times : 5AM, 8AM, 2PM, 8PM, 11 PM
 Times Played: 13
 
-=================================
+### Summary
 
-# Summary
-
-Mylie Schmidt was present during 13 instances of significant roullette losses 
-- the same times Billy Jones was working the roullete tables.  It is obvious to 
-presume, the two were working together and are indeed the culprits at hand.
-I can't really blame Billy though, I mean look at those shifts.
-
-
-
+Mylie Schmidt was there for all 13 times when significant roullette losses happened. Billy Jones was also working those times.
 
 ## Dealer_Loss_Correlation
 #!/bin/bash
