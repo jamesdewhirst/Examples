@@ -81,10 +81,9 @@
 ##### Billy Jones: 14 shifts
 
 #### Player Notes
-
-Name: Mylie Schmidt
-Times : 5AM, 8AM, 2PM, 8PM, 11 PM
-Times Played: 13
+- Name: Mylie Schmidt
+- Times : 5AM, 8AM, 2PM, 8PM, 11 PM
+- Times Played: 13
 
 ### Summary
 
