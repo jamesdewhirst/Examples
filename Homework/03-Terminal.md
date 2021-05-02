@@ -1,5 +1,5 @@
 ## Dealer_Loss_Correlation
-`#!/bin/bash
+#!/bin/bash
 
 Set time/date of loss as an array
 set -a time_array
@@ -21,7 +21,7 @@ do
 done | sort
 
 #### Cleanup 
-rm dealer_sched`
+rm dealer_sched
 
 ## Dealers_working_during_Losses
 - 0310:02:00:00PM	Chyna Mercado	Billy Jones	Cleveland Hanna
@@ -55,19 +55,19 @@ Command to find losses:
 #grep "-" *_win* | sed 's/_win_loss_player_data:/ /;s/ //2'> Roulette_Losses
 
 #awk -F" " '{print $1,$2,$3}' Roulette_Losses | sort | { cat ; echo ;} > Notes_Player_Analysis
-0310 02:00:00 PM
-0310 05:00:00 AM
-0310 08:00:00 AM
-0310 08:00:00 PM
-0310 11:00:00 PM
-0312 02:00:00 PM
-0312 05:00:00 AM
-0312 08:00:00 AM
-0312 08:00:00 PM
-0312 11:00:00 PM
-0315 02:00:00 PM
-0315 05:00:00 AM
-0315 08:00:00 AM
+- 0310 02:00:00 PM
+- 0310 05:00:00 AM
+- 0310 08:00:00 AM
+- 0310 08:00:00 PM
+- 0310 11:00:00 PM
+- 0312 02:00:00 PM
+- 0312 05:00:00 AM
+- 0312 08:00:00 AM
+- 0312 08:00:00 PM
+- 0312 11:00:00 PM
+- 0315 02:00:00 PM
+- 0315 05:00:00 AM
+- 0315 08:00:00 AM
 
 #grep -r "-" 03* | sed 's/_win_loss_player_data:/ /' | awk -F" " '{$1=$2=$3=$4=""; print $0}' | 
 #### sed 's/ //g;s/,/\n/g' | sort | uniq -c | sort >> Roulette_Losses
