@@ -10,15 +10,13 @@
 - Compress the `Player_Dealer_Correlation` folder to a zip file and submit it.
 
 ## Note Files
-
-### Notes_Player_Analysis
+#### Notes_Player_Analysis
 - Name: Mylie Schmidt
 - Times: 5am, 8am, 2pm, 8pm, 11pm
 - Times Played: 13
 
-
-### Notes_Dealer_Analysis
-- # Roullette Dealers Scheduled during losses
+#### Notes_Dealer_Analysis
+Roullette Dealers Scheduled during losses
 -----------------------
 ## 03/10
 -----------------------
