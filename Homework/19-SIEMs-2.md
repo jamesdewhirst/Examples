@@ -29,10 +29,17 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 1
 - Several users were impacted during the attack on March 25th.
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
+
 - Recomended Local User Mitigations
-   - blah
+   - We found user `k` credentials were used the most
+     - We are going to change his user k's user name and password.
+     - We are also going to increase the frequency that passwords need to be changed.
+     - Users will need to increase password strength using a combination of capital letters, numbers as well as special characters.
+     - A password manager is also recommended to keep users from writing down passwords.
 - Recomended Global Mitigations
-   - blah
+   - Users will be using a VPN (Virtual Private Network) for access
+   - Multi-Factor Authentication will be implimented
+   - User will also be given a physical login token to increase security
   
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
