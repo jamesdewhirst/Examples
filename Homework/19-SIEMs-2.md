@@ -2,22 +2,19 @@
 
 ### Scenario
 
-In the previous class,  you set up your SOC and monitored attacks from JobeCorp. Now, you will need to design mitigation strategies to protect VSI from future attacks. 
-
-You are tasked with using your findings from the Master of SOC activity to answer questions about mitigation strategies.
+We set up a SOC and monitored attacks from JobeCorp. Here, we are designing mitigation strategies to protect VSI from future attacks. 
 
 ### System Requirements 
 
-You will be using the Splunk app located in the Ubuntu VM.
+To preform the analysis we used the Splunk app located in our Ubuntu VM.
 
 ### Logs
 
-Use the same log files you used during the Master of SOC activity:
-
-- [Windows Logs](resources/windows_server_logs.csv)
-- [Windows Attack Logs](resources/windows_server_attack_logs.csv)
-- [Apache Webserver Logs](resources/apache_logs.txt	)
-- [Apache Webserver Attack Logs](resources/apache_attack_logs.txt	)
+The following logs were used to analyze the data.
+- Windows Logs = resources/windows_server.logs.csv
+- Windows Attach Logs = resources/windows_server_attack_logs.csv
+- Apache Webserver Logs = resources/apache_logs.txt
+- Apache Webserver Attack Logs = resources/apache_attack_logs.txt
 
 ---
 
