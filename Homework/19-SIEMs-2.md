@@ -4,9 +4,13 @@
 
 We set up a SOC and monitored attacks from JobeCorp. Here, we are designing mitigation strategies to protect VSI from future attacks. 
 
+---
+
 ### System Requirements 
 
 To preform the analysis we used the Splunk app located in our Ubuntu VM.
+
+---
 
 ### Logs
 
