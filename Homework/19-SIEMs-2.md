@@ -57,6 +57,8 @@ Note: This is a public-facing windows server that VSI employees access.
   - Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
 
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00004.png)
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00005.png)
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00006.png)
 
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
   
