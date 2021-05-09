@@ -59,24 +59,13 @@ Note: This is a public-facing windows server that VSI employees access.
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00004.png)
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00005.png)
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00006.png)
-
-- Provide a screen shot of the geographic map that justifies why you created this rule. 
   
 #### Question 2
 
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
-- What other rules can you create to protect VSI from attacks against your webserver?
-  - Conceive of two more rules in "plain english". 
-  - Hint: Look for other fields that indicate the attacker.
+- The following are screenshots os rules that we can create to protect VSI from attacks againts their webserber.   - Conceive of two more rules in "plain english". 
   
-
-
-### Guidelines for your Submission:
-  
-In a word document, provide the following:
-- Answers for all questions.
-- Screenshots where indicated
-
-Submit your findings in BootCampSpot!
-
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00007.png)
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00008.png)
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00009.png)
