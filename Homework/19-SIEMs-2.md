@@ -44,7 +44,10 @@ Note: This is a public-facing windows server that VSI employees access.
 #### Question 2
 - VSI has insider information that JobeCorp attempted to target users by sending "Bad Logins" to lock out every user.
 - What sort of mitigation could you use to protect against this?
-  
+
+- Users will be using a Physical Login Token
+- A time based lockout will be implimented which will log all users out one hour after they login
+
 ---
 
 ### Part 2: Apache Webserver Attack:
