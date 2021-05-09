@@ -64,7 +64,7 @@ Note: This is a public-facing windows server that VSI employees access.
 
 - VSI has insider information that JobeCorp will launch the same webserver attack but use a different IP each time in order to avoid being stopped by the rule you just created.
 
-- The following are screenshots os rules that we can create to protect VSI from attacks againts their webserber.   - Conceive of two more rules in "plain english". 
+- The following are screenshots os rules that we can create to protect VSI from attacks againts their webserber.   - More than just a location lets go ahead and block the following verzion of browser from access: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 2.0.50727987787; InfoPath.1)
   
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00007.png)
 ![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00008.png)
