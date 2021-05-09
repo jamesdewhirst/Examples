@@ -53,9 +53,11 @@ Note: This is a public-facing windows server that VSI employees access.
 ### Part 2: Apache Webserver Attack:
 
 #### Question 1
-- Based on the geographic map, recommend a firewall rule that the networking team should implement.
-- Provide a "plain english" description of the rule.
-  - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
+- Based on the geographic map, we recommend a firewall rule that the networking team should implement.
+  - Block all incoming HTTP traffic where the source IP comes from the country of Ukraine.
+
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00004.png)
+
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
   
 #### Question 2
