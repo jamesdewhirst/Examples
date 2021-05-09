@@ -28,7 +28,13 @@ Note: This is a public-facing windows server that VSI employees access.
  
 #### Question 1
 - Several users were impacted during the attack on March 25th.
+
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00001.png)
+
 - Based on the attack signatures, what mitigations would you recommend to protect each user account? Provide global mitigations that the whole company can use and individual mitigations that are specific to each user.
+
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00002.png)
+![](https://github.com/jamesdewhirst/Examples/blob/main/Homework/Images/19-SIEMs-2/20210506_00003.png)
 
 - Recomended Local User Mitigations
    - We found user `k` credentials were used the most
